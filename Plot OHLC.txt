@@ -1,0 +1,10 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © IT_Wala
+
+//@version=4
+study("Plot OHLC")
+
+plot(open, color = color.blue)
+plot(high, color = color.green)
+plot(low, color = color.red)
+plot(close, color = color.white)
